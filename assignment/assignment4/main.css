@@ -1,0 +1,225 @@
+body{
+	background-color: white;
+	background-image: url(pic/pizza-dip-9.jpeg) ;
+	background-repeat: repeat;
+	background-blend-mode: multiply;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position-x: center;
+	margin: 0;
+    padding: 0;
+	
+}
+
+.header {
+  background-color: white;
+  padding-left: 10px;
+  position: sticky;
+  border-radius: 10px;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 3px rgba(128, 128, 128, 0.76);
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 2rem;
+  border-radius: 4px;
+  
+}
+.header .topic {
+  font-size: rem;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.header .topic:hover {
+  animation: hoverincreaseSize 0.2s linear;
+}
+
+.header a:hover {
+  background-color: green;
+  color: white;
+  animation: hoverincreaseSize 0.2s linear;
+}
+
+
+.header-right {
+	padding: 10px;
+}
+
+
+.grid-container {
+	padding: 10px;
+	padding-top: 40px;
+	display: grid;
+	grid-template-columns: 25% auto 20%;
+	grid-gap: 10px;
+
+}
+
+.grid-container > div{
+    
+	border: 5px solid brown;
+	 border-radius: 24px; 
+	background-color: burlywood;
+	text-align: left;
+	line-height: 1.6em;
+	padding: 15px;
+	box-shadow: 2px 4px rgba(85, 36, 36, 0.63);
+	text-decoration: none;
+	
+}
+.grid-container > div:hover{
+	background-color: rgb(247, 210, 161);
+	
+}
+.grid-container .topicHead{
+	grid-column: 2/ span 1;
+	text-align: center;
+	padding-top: 20px;
+	background-color: aliceblue !important; 
+	text-shadow: 2px 2px gray;
+	text-decoration: underline;
+	text-underline-offset: 6px;
+}
+#ingredients{
+ grid-column: 1/ 1;
+}
+#ingredientsTopping{
+ grid-column: 1/ 1;
+}
+
+#ingredientsImage{
+	grid-column: 2 / span 2;
+    grid-row: 2 / span 2; 
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+
+#ingredientsImage img{
+	width: 40%;
+	margin:  10px;
+	border-radius: 24px;
+	border: 3px dotted ghostwhite;
+	align-self:  center;
+}
+#ingredientsImage img:hover{
+	animation: hoverincreaseSize 0.5s linear;
+}
+@keyframes hoverincreaseSize
+{
+	0% {transform :scale(1);}
+	50% {transform :scale(1.05)}
+	100% {transform :scale(1);}
+}
+#instructionsImage{
+	grid-column: 1 / span 2;
+    grid-row: 5 / span 2; 
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+#instructionsImage img{
+	width: 30%;
+	height: auto;
+	margin:  10px;
+	border-radius: 24px;
+	border: 3px dotted ghostwhite;
+	align-self:  center;
+}
+#instructionsImage img:hover{
+	animation: hoverincreaseSize 0.5s linear;
+}
+
+#instructions{
+	 grid-column: 3/span 1;
+	 grid-row: 5 / span 2; 
+}
+
+#footer{
+	background-color: grey;
+	color: black;
+	font-size: 1.2rem;
+	text-align: center;
+	padding: 40px;
+	padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: auto;
+		  
+	}
+	.grid-container .topicHead
+	{
+	grid-column: 1/ span 2;
+	}
+	#ingredients{
+	grid-column: 1/ span 1;
+	}
+	#ingredientsTopping{
+	grid-column: 2/ span 1;
+	}
+	#footer{
+	padding: 10px;
+	}
+	#ingredientsImage{
+	grid-column: 1 / span 2;
+    grid-row: 3 / span 1; 
+	}
+
+	#instructions{
+		grid-column: 1/span 2;
+		grid-row: 5 / span 1; 
+	}
+	#instructionsImage{
+		grid-column: 1 / span 2;
+		grid-row: 6 / span 2; 
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto ;
+		grid-gap: 10px;
+		  
+	}
+	.grid-container .topicHead
+	{
+	grid-column: 1/ span 1;
+	}
+	#ingredients{
+	grid-column: 1/ span 1;
+	}
+	#ingredientsTopping{
+	grid-column: 1/ span 1;
+	}
+	#ingredientsImage{
+	grid-column: 1 / span 1;
+    grid-row: 4 / span 1; 
+	}
+
+	#instructions{
+		grid-column: 1/span 1;
+		grid-row: 6 / span 1; 
+	}
+	#instructionsImage{
+		grid-column: 1 / span 1;
+		grid-row: 7 / span 2; 
+	}
+}

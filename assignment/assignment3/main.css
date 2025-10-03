@@ -1,0 +1,63 @@
+.title{
+    border-radius: 25px;
+    line-height: 2.6em;
+    background-color:brown;
+    padding-left: 20px;
+    color: wheat;
+    box-shadow: 5px 5px olivedrab;
+}
+h3{
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 2.6em;
+    background-color:brown;
+    color: wheat;
+    display: inline-block;
+    box-shadow: 5px 5px rgba(207, 141, 75, 0.811);
+}
+section{
+    text-align: left;
+    padding-left: 30px;
+    background-color: beige;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    box-shadow: 5px 5px rgba(238, 230, 200, 0.811);
+}
+.flex_container{
+display: flex;
+flex-direction: column;
+
+}
+.image{
+    padding-top: 25px; 
+    height: 300px;
+    align-self: center;
+}
+
+html{
+    background-color: blanchedalmond;
+    font-size: 1.6rem;
+}
+.flex_container2{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.flex_container2 img{
+    border: 3px;
+    height: 400px;
+    
+    
+}
+.instructions > img{
+    padding-left: 500px;
+}
+footer{
+    background-color: brown;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 30px;
+    
+}

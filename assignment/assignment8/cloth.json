@@ -1,0 +1,47 @@
+{
+	"top1":{
+		"name": "A.B.C",
+		"brand": "A.B.C Clothing",
+		"price":"200",
+		"img":"pic/top1.jpg"},
+	"top2":{
+		"name": "B.C.D",
+		"brand": "B.C.D Clothing",
+		"price":"500",
+		"img":"pic/top2.jpg"},
+	"top3":{
+		"name": "C.D.E",
+		"brand": "C.D.E Clothing",
+		"price":"300",
+		"img":"pic/top3.jpg"},
+	"top4":{
+		"name": "D.E.F",
+		"brand": "D.E.F Clothing",
+		"price":"400",
+		"img":"pic/top4.jpg"},
+	"top5":{
+		"name": "E.F.G",
+		"brand": "E.F.G Clothing",
+		"price":"600",
+		"img":"pic/top5.jpg"},
+	"top6":{
+		"name": "F.G.H",
+		"brand": "F.G.H Clothing",
+		"price":"700",
+		"img":"pic/top6.jpg"},
+	"top7":{
+		"name": "G.H.I",
+		"brand": "G.H.I Clothing",
+		"price":"800",
+		"img":"pic/top7.jpg"},
+	"top8":{
+		"name": "H.I.J",
+		"brand": "H.I.J Clothing",
+		"price":"900",
+		"img":"pic/top8.jpg"},
+	"top9":{
+		"name": "I.J.K",
+		"brand": "I.J.K Clothing",
+		"price":"1000",
+		"img":"pic/top9.jpg"}
+}
