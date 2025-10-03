@@ -313,3 +313,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
     document.addEventListener('click', startGame); 
 
 });
+
