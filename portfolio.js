@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     { id: 'item-3', element: document.getElementById('item-3'), triggerX: 2800 },
     
     // HOBBY 
-    { id: 'item-4', element: document.getElementById('item-4'), triggerX: 3400 }, // MY HOBBY
+    { id: 'item-4', element: document.getElementById('item-4'), triggerX: 3400 }, // MY HOBBY (Start of Section)
     { id: 'item-5', element: document.getElementById('item-5'), triggerX: 4000 }, // GAME
     { id: 'item-6', element: document.getElementById('item-6'), triggerX: 4600 }, 
     { id: 'item-7', element: document.getElementById('item-7'), triggerX: 5200 }, 
@@ -36,27 +36,27 @@ document.addEventListener('DOMContentLoaded', (event) => {
     { id: 'item-13', element: document.getElementById('item-13'), triggerX: 8800 }, // PHOTOGRAPHING
     { id: 'item-14', element: document.getElementById('item-14'), triggerX: 9400 },
     { id: 'item-15', element: document.getElementById('item-15'), triggerX: 10000 },
-    { id: 'item-16', element: document.getElementById('item-16'), triggerX: 10600 }, 
-    { id: 'item-17', element: document.getElementById('item-17'), triggerX: 11200 }, // 3D MODELING 
-    { id: 'item-18', element: document.getElementById('item-18'), triggerX: 11800 }, 
-    { id: 'item-19', element: document.getElementById('item-19'), triggerX: 12400 }, 
-    { id: 'item-20', element: document.getElementById('item-20'), triggerX: 13000 }, 
+    { id: 'item-16', element: document.getElementById('item-16'), triggerX: 10600 }, // Bridge Photo
+    { id: 'item-17', element: document.getElementById('item-17'), triggerX: 11200 }, // 3D MODELING (H2)
+    { id: 'item-18', element: document.getElementById('item-18'), triggerX: 11800 }, // Room
+    { id: 'item-19', element: document.getElementById('item-19'), triggerX: 12400 }, // Character
+    { id: 'item-20', element: document.getElementById('item-20'), triggerX: 13000 }, // CryoChamber
     
     // MY SKILLS
-    { id: 'item-21', element: document.getElementById('item-21'), triggerX: 13600 }, // MY SKILLS 
-    { id: 'item-22', element: document.getElementById('item-22'), triggerX: 14200 }, 
-    { id: 'item-23', element: document.getElementById('item-23'), triggerX: 14800 }, 
+    { id: 'item-21', element: document.getElementById('item-21'), triggerX: 13600 }, // MY SKILLS (H2)
+    { id: 'item-22', element: document.getElementById('item-22'), triggerX: 14200 }, // HARD SKILLS
+    { id: 'item-23', element: document.getElementById('item-23'), triggerX: 14800 }, // SOFT SKILLS
     
     // INTERESTS 
-    { id: 'item-24', element: document.getElementById('item-24'), triggerX: 15400 }, // MY INTERESTS 
+    { id: 'item-24', element: document.getElementById('item-24'), triggerX: 15400 }, // MY INTERESTS (H2)
     { id: 'item-25', element: document.getElementById('item-25'), triggerX: 16000 },
     { id: 'item-26', element: document.getElementById('item-26'), triggerX: 16600 },
     { id: 'item-27', element: document.getElementById('item-27'), triggerX: 17200 },
     { id: 'item-28', element: document.getElementById('item-28'), triggerX: 17800 },
           
     // MY PROJECTS 
-    { id: 'item-29', element: document.getElementById('item-29'), triggerX: 18400 }, // MY PROJECTS
-    { id: 'item-30', element: document.getElementById('item-30'), triggerX: 19000 },
+    { id: 'item-29', element: document.getElementById('item-29'), triggerX: 18400 }, // MY PROJECTS (H2)
+    { id: 'item-30', element: document.getElementById('item-30'), triggerX: 19000 }, // Project List
     
     // CONTACT 
     { id: 'item-31', element: document.getElementById('item-31'), triggerX: 19600 }  // CONTACT ME
@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const targetCheckpoint = CHECKPOINTS.find(cp => cp.id === targetCheckpointId);
         
         if (targetId === 'item-29') {
-             window.open('project.html', '_blank');
+             window.open('/project.html', '_blank');
              return;
         }
 
@@ -311,6 +311,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     document.addEventListener('keyup', startGame); 
     document.addEventListener('click', startGame); 
-
 });
-
