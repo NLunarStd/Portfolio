@@ -150,7 +150,6 @@ body {
 .controls button {
     background-color: rgba(255, 255, 255, 0.0); 
     border: none;
-    font-family:sans-serif; 
     padding: 10px 15px;
 }
 
@@ -512,4 +511,188 @@ body {
     font-family: monospace;
     font-size: 1.1em;
     color: white;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        overflow-x: hidden; 
+        font-size: 0.8rem;
+        padding: 10px 10px;
+    }
+    
+    .navbar a.is-nav-active {
+        padding: 4px 60px;
+    }
+    .portfolio-item{
+        font-size: 1rem;
+        min-width: 200px;
+        max-width: 400px;
+        padding: 10px;
+    }
+    .portfolio-item p,li{
+        font-size: 0.8rem;
+    
+    }
+    .portfolio-image{
+        height: 150px;
+    }
+    .vertical-line{
+        height: 100px;
+        margin: 5px 5px; 
+    }
+    .portfolio-item h2{
+        padding: 2px;
+        font-size: 1rem;
+        
+    }
+    .controls button{
+        padding: 5px 8px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    body{
+        overflow-x: hidden; 
+        font-size: 0.4rem;
+    }
+    
+    .navbar a.is-nav-active {
+        padding: 4px 40px;
+    }
+    .portfolio-item{
+        font-size: 0.6rem;
+        min-width: 100px;
+        max-width: 200px;
+    }
+    .portfolio-image{
+        height: 80px;
+    }
+    .portfolio-item h2{
+        font-size: 0.8rem;
+        padding: 2px;
+    }
+    .portfolio-item p,li{
+        font-size: 0.5rem;
+    }
+    .vertical-line{
+        height: 80px;
+        margin: 2px 2px;
+    }
+    .portfolio-item-text{
+        padding-left: 2px;
+        font-size: 0.8rem;
+    }
+    .controls button{
+        padding: 3px 5px;
+    }
+    #item-4{
+        min-width: 400px;
+    }   
+    #item-14{
+        min-width: 150px;
+    }
+    #item-20{
+        min-width: 200px;
+    }
+    #item-22{
+        min-width: 200px;
+    }
+    #item-23{
+        min-width: 200px;
+    }
+    #item-25 p{
+        font-size: 0.5rem;
+    }
+    
+    #item-26 p{
+        font-size: 0.5rem;
+    }
+    #item-27 p{
+        font-size: 0.5rem;
+    }
+    #item-28 p{
+        font-size: 0.5rem;
+    }
+    #item-30{
+        min-width: 300px;
+    }
+    #item-31{
+        min-width: 250px;
+    }
+    #item-31 h2{
+        width: 100px;
+        padding: 5px;
+        padding-top: 20px;
+        font-size: 1rem;
+    }
+    #item-35{
+        min-width: 500px;
+    }
+    #item-36{
+        min-width: 400px;
+    }
+    #item-37{
+        min-width: 400px;
+    }
+    #item-38{
+        min-width: 400px;
+    }
+    #item-40{
+        min-width: 500px;
+        height: 100px;
+    }
+    #item-40 img{
+        width: 250px;
+    }
+    #item-41{
+        min-width: 400px;
+    }
+    #item-42{
+        min-width: 300px;
+    }
+    #item-43{
+        min-width: 300px;
+    }
+    #item-44{
+        min-width: 200px;
+    }
+    #item-45{
+        min-width: 300px;
+    }
+}
+
+
+@media screen and (max-height: 600px) {
+    
+    body{
+        overflow-x: hidden; 
+        font-size: 0.4rem;
+    }
+    
+    .navbar a.is-nav-active {
+        padding: 4px 40px;
+    }
+    .portfolio-item{
+        font-size: 0.6rem;
+        max-height: 200px;
+        max-width: none;
+        bottom: 30px;
+        
+    }
+    .portfolio-item p{
+        font-size: 0.5rem;
+    }
+    .portfolio-image{
+        height: 150px;
+    }
+    .vertical-line{
+        height: 80px;
+        margin: 5px 5px;
+    }
+    .portfolio-item-text{
+        padding-right: 2px;
+        font-size: 0.8rem;
+    }
 }
